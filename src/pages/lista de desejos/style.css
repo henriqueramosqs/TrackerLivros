@@ -1,0 +1,33 @@
+.introduction-ldd{
+    display: grid;
+    grid-template-columns: 515px 515px;
+    width: fit-content !important;
+    gap:35px;
+    margin-top: 80px !important;
+}
+
+.catalog-element{
+    background-color: #AE65A8;
+    display: flex;
+    border-radius: 10px;
+    height: 170px;
+    width: 515px;
+}
+.catalog-element>img{
+    margin:10px;
+}
+
+.catalog-text{
+    background: rgba(241, 230, 243, 0.76);
+    width:-webkit-fill-available;
+    border-radius: 0px 10px 10px 0px;    
+    padding: 20px 5px 10px 5px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog-text>a{
+    color: #953181;
+    font-family: Nunito;
+}

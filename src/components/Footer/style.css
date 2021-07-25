@@ -1,0 +1,26 @@
+footer{
+    background-color: #8F329D;
+    display:flex;
+    justify-content: center;
+    width: 100vw;
+    height: 75px;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.nome{
+    font-family: "Nunito", sans-serif;
+    margin-right: 15px;
+    color: #C799CE;
+}
+
+.social-links{
+    margin-right: 5px;
+    outline: none !important;
+}
+
+.social-links:hover, .social-links:focus{
+    border-bottom: 2px solid #E3CCE7;
+}
+

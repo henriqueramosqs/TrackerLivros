@@ -1,0 +1,31 @@
+.introduction-landing{
+    background-color:#E5E5E5;
+    border-radius: 20px;
+    display: flex;
+    width: 85%;
+    height: 68vh;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.introduction-landing>img{
+    margin: 20px;
+    border-radius:10px 0px 0px 10px;
+}
+p{
+    font-family:"Nunito", sans-serif;
+    text-indent: 20px;
+    font-weight: bold;
+    color: #8F329D;
+}
+
+.finalização{
+    text-align: end ;
+    position: relative;
+    right: 8px;
+}
+
+.text{   
+    overflow: auto;
+    padding-right: 20px
+}
